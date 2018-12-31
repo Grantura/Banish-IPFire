@@ -1,5 +1,5 @@
 # Banish-IPFire
-This addon alows the administrator to generate a personal blocklst through menus on the IPFire GUI and genearate iptables rules to block by IP Address,CIDR, MAC Address or fully qualified domain name 
+This addon alows the administrator to generate a personal blocklst through menus on the IPFire GUI and to generate iptables rules to block by IP Address,CIDR, MAC Address or fully qualified domain name 
 This is a port of Banish IPCop addon to IPFire. The Banish addon was written by Sid McLaurin but seems to have abandoned arround 2008 and I can no longer find any trace of the original author.
 
 I am currently running the ported version of Banish on IPFire 2.21 (i586) - Core Update 125 on a PC Engines ‐ apu2.
