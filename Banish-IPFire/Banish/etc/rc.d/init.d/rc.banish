@@ -1,0 +1,27 @@
+#!/bin/sh
+#
+#
+# Start up script for Banish-IPFire by Rob Brewer [ granturav8@gmail.com ] - 28/12/18
+#
+. /etc/sysconfig/rc
+. ${rc_functions}
+
+# See how we were called.
+case "$1" in
+  start)
+	boot_mesg "Loading Banish Rules....  "
+        /usr/local/bin/banish start
+		;;
+  stop)
+	boot_mesg "Removing Banish Rules..."
+        /usr/local/bin/banish stop
+	    ;;
+  reload)
+	boot_mesg "Reloading banish Rules...."
+        $0 stop
+        $0 start
+        ;;
+  *)
+        echo "Usage: $0 {start|stop|reload}"
+        ;;
+esac

@@ -1,0 +1,6 @@
+$subipfire->{'70.banish'} = {'caption' => 'Banish',
+                                  'uri' => '/cgi-bin/BanishGeo.cgi',
+                                  'title' => 'Banish',
+                                  'enabled' => 1,
+                                  };
+

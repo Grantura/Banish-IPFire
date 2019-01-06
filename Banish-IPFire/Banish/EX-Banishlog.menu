@@ -1,0 +1,6 @@
+$sublogs->{'55.banishlogs'} = {'caption' => 'Banish Logs',
+                                  'uri' => '/cgi-bin/logs.cgi/Banishlog.dat',
+                                  'title' => 'Banish Logs',
+                                  'enabled' => 1,
+                                  };
+
